@@ -1,4 +1,4 @@
-# IMIeventUDC2017
+# 共通語彙基盤を用いたイベントデータ From イベントカレンダー
 実践！共通語彙基盤ワークショップ・ハッカソン（2017/10/8-10/9開催）で作成した，共通語彙基盤（IMI）対応のイベントデータの公開用レポジトリ．  
 UDC2017応募用に整理したバージョンです．
 
@@ -20,3 +20,16 @@ Webサイト上の複数の「イベントカレンダー」から，イベン�
 1. 大阪イノベーションハブ（https://www.innovation-osaka.jp/ja/event-calendar/ ）
 1. 大阪産業創造館（https://www.sansokan.jp/events/ ）
 
+## データの公開場所
+元データとした「イベントカレンダー」は，以下の通りです．
+1. API（SPARQLエンドポイント）　
+  1. http://lod.hozo.jp/repositories/IMIhack　（AllegroGraph）
+  1. http://27.134.254.189:8890/sparql　　（Virtuoso）
+1. データファイル（Turtle形式） https://github.com/koujikozaki/IMIeventUDC2017/tree/master/data
+1. URLでの参照解決可能なアクセス
+  1. http://lodosaka.jp/IMIhack/event/OIH
+  1. http://lodosaka.jp/IMIhack/event/Sansokan
+		※HTML, Turtle, RDF/XML, JSON, JSON-LDに対応
+    [Simple LODI : Simple Linked Open Data Interface](https://github.com/uedayou/simplelodi)を利用しています．  
+
+ 
