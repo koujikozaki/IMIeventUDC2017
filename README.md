@@ -33,9 +33,9 @@ Webサイト上の複数の「イベントカレンダー」から，イベン�
 	[Simple LODI : Simple Linked Open Data Interface](https://github.com/uedayou/simplelodi)を利用しています．  
 
 ## サンプルアプリケーション
-1. LINEによる検索ボット（デモ版）  
+1. LINEによる検索ボット（デモ版）   
 https://github.com/koujikozaki/IMIeventUDC2017/blob/master/doc/DemoQR.png  
-1. 簡易検索用Webサービス  
+1. 簡易検索用Webサービス  
 http://lodosaka.jp/IMIhack/eventList.html  
 
 ## 参考資料  
