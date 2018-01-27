@@ -1,0 +1,1562 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:   <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ic:   <http://imi.go.jp/ns/core/rdf#> .
+<>
+	cc:attributionName "古崎晃司"@ja ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.ja> .
+<http://lodosaka.jp/IMIhack/event/Sansokan#30> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【サンソウカン・スタートアップ・サポーターズセミナー】日本政策金融公庫に聴く！資金調達のポイントと事業計画の立て方" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/01/29 13:30 - 15:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-01-29T13:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "01"^^xsd:integer;
+            ic:日 "29"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24863> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#32> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【商品力向上セミナー】＜企画力（つくる）編＞4コマで作る！「伝わるコンセプトのつくり方入門」" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/01/30 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-01-30T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "01"^^xsd:integer;
+            ic:日 "30"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24529> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#34> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【現場力向上セミナー】＜原価・外注管理2＞製造原価の分析結果を現場にフィードバックする" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/01/30 18:30 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-01-30T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "01"^^xsd:integer;
+            ic:日 "30"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24666> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#36> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "1月31日締切【人と組織をポジティブに変える、3つのリーダーシップ】第2クール：知恵と力をあわせる職場を作る「ファシリテーター型リーダーシップ」" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/01/31 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-01-31T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "01"^^xsd:integer;
+            ic:日 "31"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24569> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#38> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "1月31日締切1/31 企業等によるクリエイター募集プレゼンテーション" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/01/31 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-01-31T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "01"^^xsd:integer;
+            ic:日 "31"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "Mebic" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.mebic.com/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25180> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#40> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "1月31日締切1/31 企業等によるクリエイター募集プレゼンテーション" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/01/31 18:30 - 21:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-01-31T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "01"^^xsd:integer;
+            ic:日 "31"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "Mebic" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.mebic.com/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25180> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#42> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "ディープラーニングで歩行者属性認識―ハンズオンで学ぶTensorFlow中級２" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/1 14:00 - 17:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "iMedio" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.imedio.or.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24936> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#44> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月2日締切【知っておきたいIoTセキュリティ】情報の盗まれ方と、守り方の基本。" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/2 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "iMedio" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.imedio.or.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24757> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#46> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【イメディオ・制作技術セミナー】Dreamweaver入門 〜はじめよう！Web制作〜《最新版 CC 2018》" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/2 13:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "iMedio" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.imedio.or.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24883> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#48> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【大阪市立大学「オープンラボラトリー」】微生物腐食を知る・診る・測る" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/2 13:30 - 17:10"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T13:30:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24668> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#50> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月2日締切【知っておきたいIoTセキュリティ】情報の盗まれ方と、守り方の基本。" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/2 16:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T16:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "iMedio" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.imedio.or.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24757> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#52> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【イメディオ・創業支援セミナー】独り社長の不安解消！ - 思いをカタチに！起業プランのABC -" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/3 14:00 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "iMedio" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.imedio.or.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24843> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#55> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【トークライブ！】顧客満足度2回連続日本一を実現！カンデオホテルズの「人が育つ」経営とは？" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/5 18:30 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24608> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#57> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月6日締切【1日完結ワークショップ】接客サービス業のための明日から使える統計学ワークショップ" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/6 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24855> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#59> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ベーシックセミナー】はじめてのマーケティング入門セミナー" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/6 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24530> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#61> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【無料！創業スタートアップセミナー】はじめはここから！起業の全体像をつかむ！　2月6日開催" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/6 19:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25051> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#64> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月8日締切【経営者のためのワークショップ】紹介営業　「必ず紹介してもらえる仕組みの作り方」" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/8 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24659> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#66> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ものづくりビジネスセミナー】勝機はIT活用にあり！WEBとブログがものづくり企業のビジネスを変える！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/8 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24667> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#68> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "メビック扇町【クリエイティブクラスターセミナー】答えをだすクリエイティブ （第1回）" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/8 19:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "Mebic" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.mebic.com/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25069> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#70> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【イメディオ・制作技術セミナー】Photoshop入門　―画像加工の基礎を学ぶ―《最新版 CC 2018》" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/9 13:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "iMedio" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.imedio.or.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24967> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#75> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【事業推進セミナー】金属加工業に知ってほしい！コスト削減につながる切削油剤の管理と選び方" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/13 18:30 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-13T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "13"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24920> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#77> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【起業準備セミナー】“共感”が心を動かすプレゼンテーション術" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/13 19:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-13T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "13"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24616> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#79> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ベーシックセミナー】＜会計・中級＞経営者目線の決算書の読み方・活かし方" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/14 14:00 - 16:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-14T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "14"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24606> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#81> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "1月31日締切【人と組織をポジティブに変える、3つのリーダーシップ】第2クール：知恵と力をあわせる職場を作る「ファシリテーター型リーダーシップ」（第１回）" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/14 17:00 - 20:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-14T17:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "14"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24569> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#83> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【現場力向上セミナー】＜技能伝承1＞技能伝承を取り巻く誤解と対応策" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/14 18:00 - 20:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-14T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "14"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24999> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#85> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月15日締切【発表者募集】サンソウカン・スタートアップ・アワードプロモーション支援やマッチングの可能性も？！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/15 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-15T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "15"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25112> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#87> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "メビック扇町【クリエイティブクラスターセミナー】答えをだすクリエイティブ （第2回）" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/15 19:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-15T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "15"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "Mebic" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.mebic.com/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25070> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#89> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【イメディオ・制作技術セミナー】PHPでWebアプリを作ってみよう！ ― プログラム基本＆実践 ―" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/16 13:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-16T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "16"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "iMedio" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.imedio.or.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24968> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#91> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【起業準備セミナー】顧客ニーズを導き出す！マーケティング視点で行う営業手法" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/16 19:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-16T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "16"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24617> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#95> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月6日締切【1日完結ワークショップ】接客サービス業のための明日から使える統計学ワークショップ" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/19 13:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-19T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "19"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24855> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#97> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【事業推進セミナー】自社でも使える！問い合わせにつなげる紙DMの作り方を学ぼう" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/20 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-20T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "20"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25029> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#99> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月21日締切【IoT Business Boost-up DAY】最新のビジネスプランが集結！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/21 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-21T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "21"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25086> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#101> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "紙のあれこれお悩み解決！【紙加工技術展2018】" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/21 10:30 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-21T10:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "21"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24669> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#103> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【イメディオ・制作技術セミナー】話題のフロントエンドUIライブラリ「Riot.js」を使ってみよう！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/21 18:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-21T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "21"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "iMedio" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.imedio.or.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25137> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#105> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月22日締切【販路拡大ターゲットマッチング】ペット用品通販カタログ&amp;サイト「PEPPY」が「犬・猫との暮らしを豊かにする」商品募集" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/22 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-22T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "22"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25031> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#107> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月8日締切【経営者のためのワークショップ】紹介営業　「必ず紹介してもらえる仕組みの作り方」（第１回）" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/22 13:00 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-22T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "22"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24659> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#109> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月21日締切【IoT Business Boost-up DAY】最新のビジネスプランが集結！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/22 13:30 - 19:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-22T13:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "22"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25086> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#111> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ベーシックセミナー】経営目線で考える会社の税務会計　〜賢く適切に納税するための基礎を学ぼう！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/22 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-22T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "22"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24607> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#113> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ナレッジセミナー】特定分野で1位をつくる！小さな会社の営業戦略" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/22 18:00 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-22T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "22"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24609> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#115> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "メビック扇町【クリエイティブクラスターセミナー】答えをだすクリエイティブ （第3回）" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/22 19:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-22T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "22"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "Mebic" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.mebic.com/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25071> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#117> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【イメディオ・制作技術セミナー】Illustrator入門　―レイアウトの基礎を学ぶ― 《最新版 CC 2018》" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/23 13:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-23T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "23"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "iMedio" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <http://www.imedio.or.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24969> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#119> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【トークライブ！】「言葉にできる」は武器になる〜トップコピーライターの言葉と思考を鍛えるルール〜" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/23 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-23T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "23"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24661> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#121> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【サンソウカン・スタートアップ・サポーターズセミナー】採用コストが削減できる！事例で学ぶ！自社サイトで求人が集まるコツ" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/23 16:00 - 17:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-23T16:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "23"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24952> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#123> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "起業プログラム＆デスク「立志庵」平成30年度 第1期生 利用募集説明会" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/23 19:00 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-23T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "23"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25074> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#127> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月26日締切【販路拡大ターゲットマッチング】海外で60店舗以上の飲食店とスーパーを運営するバイヤー企業が、食料品全般を大募集！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/26 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-26T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "26"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24901> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#129> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月26日締切御社のちょっといい取り組みを教えてください【ええやん！プロジェクト】人事制度や働き方改革、地域貢献、異業種連携などのネタ大募集" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/26 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-26T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "26"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25106> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#131> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【海外ビジネスセミナー】日本流ではＮＧ！？中小企業が海外で取り組むべき人材管理と報酬制度" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/27 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-27T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "27"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25068> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#133> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【現場力向上セミナー】＜技能伝承2＞作業分解して技術・技能伝承に取り組む" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/27 18:00 - 20:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-27T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "27"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25000> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#135> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ベーシックセミナー】会社法の基礎　〜意外に知らない株式・役員人事の落とし穴〜" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/27 18:30 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-27T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "27"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24817> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#137> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月28日締切【人と組織をポジティブに変える、3つのリーダーシップ】第3クール：想いを合わせ人を動かす「ビジョナリー・リーダーシップ」" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/28 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-28T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "28"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24570> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#139> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ナレッジセミナー】「稼ぐ従業員を育てる」人事制度の仕組み" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/02/28 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-28T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "28"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24662> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#141> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "3月1日締切＜出展企業募集＞【Web販促フェスタ2018】Web販促に関するサービス・ツール・実績をPRしたい企業大募集！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/1 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25099> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#143> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【中小企業応援団セミナー】人の育ちを進める10のポイント〜幹部層から担当者まで、意欲を持った職場づくり〜" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/1 15:00 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T15:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24966> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#148> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "＜セミナー＞次の１００年を考える「ＹＡＮＭＡＲ」から学ぶ新たなエネルギー活用" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/5 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25060> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#150> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【無料！創業スタートアップセミナー】はじめはここから！起業の全体像をつかむ！　3月5日開催" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/5 19:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25052> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#152> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【インバウンド＆越境ECフェスタ2018】海外消費者を取り込め！インバウンド・越境ＥＣ関連企業が大集合" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/6 12:00 - 17:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T12:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24942> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#154> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【インバウンド＆越境ECフェスタ2018】訪日客の取り込み方を掴む！インバウンドセミナー＆プレゼンテーション" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/6 13:00 - 14:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24923> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#156> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【インバウンド＆越境ECフェスタ2018】海外進出、この手があった！越境ECセミナー＆企業プレゼンテーション" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/6 15:00 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T15:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25011> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#159> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【粉体・流体技術展2018】制御・素材・評価のお悩み解決に！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/8 10:30 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T10:30:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24805> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#161> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ナレッジセミナー】“やりがい”を感じ共有できる職場づくり〜ＥＳ（従業員満足度）を高めるしかけとは" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/8 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24909> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#163> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【トークライブ！】小さなエビ工場の奇跡" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/8 18:30 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24818> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#165> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ナレッジセミナー】4ステップでできる「将来の利益を生み出す」経営戦略のつくり方" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/9 18:30 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2017-10-01T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2017"^^xsd:integer;
+            ic:月 "10"^^xsd:integer;
+            ic:日 "01"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24819> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#170> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【現場力向上セミナー】＜人財育成1＞人手不足の原因分析と、育成の方向性を学ぶ" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/13 18:30 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-13T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "13"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25131> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#172> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月22日締切【販路拡大ターゲットマッチング】ペット用品通販カタログ&amp;サイト「PEPPY」が「犬・猫との暮らしを豊かにする」商品募集" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/14 10:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-14T10:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "14"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25031> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#174> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ナレッジセミナー】ブランドの再定義〜中小企業がすすめるべき価値を高めるリブランディング〜" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/14 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-14T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "14"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24822> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#176> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ロジスティクスセミナー】ICT化の波に乗る！中堅・ベンチャーが取り組む物流イノベーションとは" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/14 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-14T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "14"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25061> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#178> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月28日締切【人と組織をポジティブに変える、3つのリーダーシップ】第3クール：想いを合わせ人を動かす「ビジョナリー・リーダーシップ」（第１回）" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/14 17:00 - 20:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-14T17:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "14"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24570> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#181> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【事業推進セミナー】アクセス数UPをめざせ！ゼロから始めるWeb広告・SEO・SNS〜超基礎編〜" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/16 14:00 - 16:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-16T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "16"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25030> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#185> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月15日締切【発表者募集】サンソウカン・スタートアップ・アワードプロモーション支援やマッチングの可能性も？！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/19 14:00 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-19T14:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "19"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25112> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#187> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "2月26日締切【販路拡大ターゲットマッチング】海外で60店舗以上の飲食店とスーパーを運営するバイヤー企業が、食料品全般を大募集！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/20 10:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-20T10:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "20"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=24901> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#190> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【現場力向上セミナー】＜人財育成2＞育成の「見える化」とその手法" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/22 18:30 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-22T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "22"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25132> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#199> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "3月30日締切＜出展企業募集＞【金属加工技術展2018 】高精度、特殊加工など独自の技術を持つ企業を募集" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/30 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-30T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "30"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25053> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#201> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "3月31日締切【中小企業のBCP（事業継続計画）・災害対応マニュアル策定サポートプログラム】＜策定コース＞新規策定や既存文書の拡充・別拠点展開をサポート" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/31 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-31T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "31"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=23014> ] .
+<http://lodosaka.jp/IMIhack/event/Sansokan#203> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "3月31日締切【中小企業のBCP（事業継続計画）・災害対応マニュアル策定サポートプログラム】＜演習コース＞現場での演習・訓練の実施をサポートします" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    "2018/03/31 "  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-31T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "31"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "産創館" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.sansokan.jp/>]];
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=23255> ] .

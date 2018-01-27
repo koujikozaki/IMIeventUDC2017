@@ -1,0 +1,800 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix cc:   <http://creativecommons.org/ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix ic:   <http://imi.go.jp/ns/core/rdf#> .
+<>
+	cc:attributionName "古崎晃司"@ja ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/deed.ja> .
+<http://lodosaka.jp/IMIhack/event/OIH#1> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】OIH大企業イントルプレナーミートアップ第16回" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/01/27 13:00 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-01-27T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "01"^^xsd:integer;
+            ic:日 "27"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/intrepreneur-300x169.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/oih_intor_meetup/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#2> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【準備中】ドローンビジネス参入ガイド　出版記念イベント" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/01/30 19:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-01-30T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "01"^^xsd:integer;
+            ic:日 "30"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/coming-soon-For-event-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/180130_drone_media/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#3> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "中小・ベンチャーのための営業プロセス改革！セミナー＆相談会" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/01/31 18:30 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-01-31T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "01"^^xsd:integer;
+            ic:日 "31"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/seminor-300x157.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <http://www3.to/oihshindan> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#4> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】戦略的企業家のためのアントレプレナーシップ" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/02 18:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-02T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "02"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/senryakuteki-kigyouka-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <http://www.edu.kobe-u.ac.jp/stin-entre/schedule.html> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#5> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "日本で働くことのフシギ！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/03 10:00 - 12:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-03T10:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "03"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2018/01/180203_compass-300x175.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.facebook.com/events/137941973570526/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#6> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】OIH大企業イントルプレナーミートアップ第17回" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/03 13:00 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-03T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "03"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/intrepreneur-300x169.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/oih_intor_meetup/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#7> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "Mobile Act OSAKA #3" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/05 18:45 - 21:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-05T18:45:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "05"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2018/01/mobile_act_osaka-300x180.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://mobileact.connpass.com/event/76036/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#8> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】OSAP プレゼンセミナー" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/06 9:30 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-06T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "06"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/osap-300x158.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/180206_osap/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#9> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "大阪市長による海外出張（昨年11月実施　フランス・ドイツ）報告会" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/08 19:00 - 20:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-08T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "08"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/seminor-300x157.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <http://www.city.osaka.lg.jp/keizaisenryaku/page/0000420507.html> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#10> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "《第89回》Morning Meet Up（モーニングミートアップ）" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/09 6:30 - 9:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-09T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "09"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/mmu-1-e1503626348758-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://tohmatsu.smartseminar.jp/public/seminar/view/3939> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#11> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "SDGs　ビジネスプログラム【導入編】" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/09 18:30 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-09T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "09"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/workshop-300x157.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://peatix.com/event/339781> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#12> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】神戸リサコン・オープンイノベーション入門塾" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/13 18:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-13T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "13"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/workshop-300x157.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/17kobe_nyumonjuku06/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#13> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "奈良先端大（NAIST）先端技術セミナー＆GEIOT説明会" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/14 18:30 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-14T18:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "14"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2018/01/geiotlogo-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://geiot-intra.naist.jp/geiot-seminar2018/01announce> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#14> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "「ベンチャー型事業承継のススメ」アトツギよ、前提を変えろ！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/16 13:30 - 16:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-16T13:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "16"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2018/01/zenteiwokaero-300x158.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://nextconf.peatix.com/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#15> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】戦略的企業家のためのアントレプレナーシップ" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/16 18:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-16T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "16"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/senryakuteki-kigyouka-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <http://www.edu.kobe-u.ac.jp/stin-entre/schedule.html> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#16> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】OIH大企業イントルプレナーミートアップ第18回" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/17 13:00 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-17T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "17"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/intrepreneur-300x169.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/oih_intor_meetup/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#17> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【ソレイユデータ道場】データサイエンスセミナー＆交流会" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/18 15:00 - 18:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-18T15:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "18"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/11/soleil-data-do-jo-300x158.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://soleildatadojo.doorkeeper.jp/events/69375> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#18> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【準備中】オープンイノベーションの新潮流" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/19 14:30 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-19T14:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "19"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/coming-soon-For-event-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/180219_nine_sigma/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#19> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】OSAP広報勉強会" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/21 18:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-21T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "21"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/osap-300x158.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/180221_osap/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#20> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【IoT Business Boost-up DAY】最新のビジネスプランが集結！" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/22 13:30 - 19:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-22T13:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "22"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2018/01/boostupday_eyecatch-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.sansokan.jp/events/eve_detail.san?H_A_NO=25086> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#21> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "IoTリーンスタート！セミナー　～動き始めた中小企業のIoT！～" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/23 15:00 - 17:45"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-23T15:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "23"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/seminor-300x157.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <http://www.m-osaka.com/jp/event/detail/001377.html> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#22> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】【別会場】アトツギソン！ー「家業×イノベーション」でワクワクすること始めよう！ー" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/23 19:00 - 22:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-23T19:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "23"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/12/atotsugithon_ANA-300x178.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://peatix.com/event/321568> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#23> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】【別会場】アトツギソン！ー「家業×イノベーション」でワクワクすること始めよう！ー" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/24 9:00 - 22:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-24T22:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "24"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/12/atotsugithon_ANA-300x178.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/180224_atotsugi/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#24> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【準備中】ＰＰＵＧ大阪＃３越境ＥＣ、国内ＥＣの始めかた" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/24 13:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-24T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "24"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/coming-soon-For-event-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/180224_bertrand/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#25> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】アトツギソン！ー「家業×イノベーション」でワクワクすること始めよう！ー" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/25 9:00 - 20:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-25T20:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "25"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/12/atotsugithon_ANA-300x178.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://peatix.com/event/321568> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#26> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "アトツギピッチ／家業×イノベーションの新ビジネスを考えるアトツギソンDAY3のピッチイベント" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/25 16:00 - 19:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-25T16:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "25"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2018/01/atotsugipitch225-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://peatix.com/event/334076> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#27> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "Hack Osaka 2018" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/27 13:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-27T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "27"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/topimg_ho18_n01-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/hackosaka/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#28> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "Get In The Ring Osaka 2018【登壇者募集】" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/02/28 終日"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-02-28T00:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "02"^^xsd:integer;
+            ic:日 "28"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/11/getinthering2018top-1-300x158.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/global/gitrosaka2018/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#29> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】戦略的企業家のためのアントレプレナーシップ" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/03/02 18:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-02T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "02"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/senryakuteki-kigyouka-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <http://www.edu.kobe-u.ac.jp/stin-entre/schedule.html> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#30> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】OIH大企業イントルプレナーミートアップ第19回" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/03/10 13:00 - 17:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-10T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "10"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/intrepreneur-300x169.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/oih_intor_meetup/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#31> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【準備中】香港・深セン　海外ワークショップ　事後報告会" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/03/11 15:00 - 18:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-11T15:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "11"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/coming-soon-For-event-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/hongkong_shenzhen_ws_houkoku/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#32> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【準備中】OSAPデモデイ" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/03/15 15:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-15T15:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "15"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/osap-300x158.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/180315_osap/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#33> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】第128回MVC定例会" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/03/17 17:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-17T17:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "17"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/seminor-300x157.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/mvc_128/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#34> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【準備中】大阪市・メルボルン市姉妹都市提携40周年記念ヘルスケアイノベーションセミナー等" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/03/22 9:00 - 17:30"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-22T17:30:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "22"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/coming-soon-For-event-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/180322_melbourne_city/> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#35> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】戦略的企業家のためのアントレプレナーシップ" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/03/23 18:00 - 21:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-23T18:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "23"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/senryakuteki-kigyouka-300x157.jpg> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <http://www.edu.kobe-u.ac.jp/stin-entre/schedule.html> ] .
+<http://lodosaka.jp/IMIhack/event/OIH#36> a ic:イベント型 ;
+    ic:名称 [
+         ic:表記 "【対象者限定】OIH大企業イントルプレナーミートアップ第20回" ];
+    ic:期間 [
+         a ic:期間スケジュール型 ;
+         ic:説明    " 2018/03/24 13:00 - 19:00"  ;
+         ic:開始日時 [
+            a ic:日時型 ;
+            ic:標準型日時 "2018-03-24T13:00:00Z"^^xsd:dateTime ;
+            ic:年 "2018"^^xsd:integer;
+            ic:月 "03"^^xsd:integer;
+            ic:日 "24"^^xsd:integer; ]] ;
+    ic:開催場所 [
+             a ic:地物型 ;
+             ic:表記 "大阪イノベーションハブ" ; 
+             ic:参照 [
+                a ic:参照型 ;
+        ic:参照先 <https://www.innovation-osaka.jp/ja/>]];
+    ic:画像  <https://www.innovation-osaka.jp/ja/wp-content/uploads/2017/08/intrepreneur-300x169.png> ;
+    ic:連絡先 [
+         a ic:連絡先型 ;
+         ic:Webサイト    <https://www.innovation-osaka.jp/ja/events/oih_intor_meetup/> ] .

@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SPARQL Sample</title>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<link rel="stylesheet" href="table.css">
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src="http://uedayou.net/SPARQLTimeliner/js_sparql/sparql.js" charset="UTF-8"></script>
+<script>
+
+var endpoint = "http://lod.hozo.jp/repositories/IMIhack";
+
+$(window).load(function() {
+	//alert('Load');
+
+	searchEvent();
+	
+	$('#find_query').click(function(){
+		searchEvent();
+	});
+	
+});
+
+//
+function searchEvent() {
+
+	var key = $('#key').val();
+	qr = sendQuery(
+		endpoint
+		,$('#query_area').val().replace(/[\n\r]/g,"").replace("[key]",key)
+	);
+	qr.fail(
+		function (xhr, textStatus, thrownError) {
+			alert("Error: A '" + textStatus+ "' occurred.");
+		}
+	);
+	qr.done(
+		function (d) {
+			result_table(d.results.bindings);
+		}
+	);
+
+	$('#result_div').hide();
+
+}
+
+//結果表示用の関数
+function result_table(data){
+	 var result_div = $('#result_div');
+
+	var table = $('#result_list')[0];
+
+
+	if (table == undefined) {
+		result_div.append($('<table border="1"></table>').attr({
+			'id' : 'result_list',
+			'class' : 'table'
+		}));
+		table = $('#result_list')[0];
+	}
+
+	while (table.rows.length > 0) {
+		table.deleteRow(0); // 行を追加
+	}
+
+	if (data instanceof Array) {
+		result_div.show();
+		// ヘッダ
+		var header = table.createTHead(); // 行を追加
+		var headerRow = header.insertRow(0);
+
+		id = 1;
+		for (var d = 0; d < data.length; d++) {
+			var row1 = table.insertRow(d + 1); // 行を追加
+
+			if (d == 0) {
+				var th = document.createElement('th');
+				th.innerHTML = '日';
+				
+				headerRow.appendChild(th);
+				
+				th = document.createElement('th');
+				th.innerHTML = 'イベント名';
+				headerRow.appendChild(th);
+				
+				th = document.createElement('th');
+				th.innerHTML = '会場';
+				headerRow.appendChild(th);
+				
+				
+				//for ( var key in data[0]) {
+				//	var th = document.createElement('th');
+				//	var label = key;
+				//	th.innerHTML = key;
+				//	headerRow.appendChild(th);
+				//}
+			}
+	
+	 		//開催日
+			var cell = row1.insertCell(0); // ２つ目以降のセルを追加
+			var value = data[d]['day'];
+			if (value.value != undefined){
+				value = value.value;
+			}
+			if (value == null) {
+				value = '';
+			}
+	        cell.innerHTML = '<font size="+4">'+value+ '</font>';
+	        
+	        //イベント名称
+			cell = row1.insertCell(1); // ２つ目以降のセルを追加
+			value = data[d]['title'];
+			if (value.value != undefined){
+				value = value.value;
+			}
+			if (value == null) {
+				value = '';
+			}	        
+			var web_v = data[d]['web'];
+			if (web_v.value != undefined){
+				web_v = web_v.value;
+			}
+			if (web_v == null) {
+				web_v = '';
+			}	        
+			if (value != null && web_v != null) {
+		    	value = '<font size="+3"><a href="'+web_v+'" target="_blank">' + value + '</a></font>';
+				}
+	        cell.innerHTML = value;
+	        
+	        
+	        //会場
+			cell = row1.insertCell(2); // ２つ目以降のセルを追加
+			value = data[d]['place'];
+			if (value.value != undefined){
+				value = value.value;
+			}
+			if (value == null) {
+				value = '';
+			}	        
+	        
+			web_v = data[d]['placeURL'];
+			if (web_v.value != undefined){
+				web_v = web_v.value;
+			}
+			if (web_v == null) {
+				web_v = '';
+			}	        
+			if (value != null && web_v != null) {
+		    	value = '<font size="+2"><a href="'+web_v+'" target="_blank">' + value + '</a></font>';
+				}
+	        
+			cell.innerHTML = value;
+	        
+	        
+			//var link = true;
+			//	if (link) {
+			//		if (value != null && value.indexOf("http") == 0) {
+			//			value = '<a href="'+value+'" target="_blank">'
+			//					+ value + '</a>';
+			//		}
+			//	}
+			//cell.innerHTML = value;
+				
+			//var i = 0;
+			//for ( var key in data[d]) {
+			//	var cell = row1.insertCell(i++); // ２つ目以降のセルを追加
+			//	var value = data[d][key];
+			//	if (value.value != undefined){
+			//		value = value.value;
+			//	}
+			//	if (value == null) {
+			//		value = '';
+			//	}
+	
+			//	var link = true;
+			//	if (link) {
+			//		if (value != null && value.indexOf("http") == 0) {
+			//			value = '<a href="'+value+'" target="_blank">'
+			//					+ value + '</a>';
+			//		}
+			//	}
+			//	cell.innerHTML = value;
+			//}
+		}
+	}
+};
+
+
+</script>
+</head>
+<body>
+
+
+<div id="container">
+	<div id="header">
+	<h1 style="background-color: #dcdcd1"><font size="+4">2月開催のイベント</font></h1>
+	</div>
+
+	<div id="right" class="right">
+		<div>
+				<input style="font-size: 150%" id="key" type="text" size="40" value="">
+				<input style="font-size: 150%" type="button" id="find_query" value="検索" />
+		</div>
+		<div>
+		<textarea id="query_area" hidden cols="60" rows="10">
+
+PREFIX ic: <http://imi.go.jp/ns/core/rdf#>
+select distinct ?title ?day ?place ?web ?image ?placeURL ?s
+where {
+ ?s a ic:イベント型;
+    ic:名称/ic:表記 ?title;
+    ic:期間/ic:説明 ?date;
+    ic:期間/ic:開始日時/ic:標準型日時 ?datetime;
+    ic:期間/ic:開始日時/ic:月 ?month; 
+    ic:期間/ic:開始日時/ic:日 ?day;
+    ic:開催場所/ic:表記 ?place ; 
+    ic:開催場所/ic:参照/ic:参照先 ?placeURL;
+    ic:連絡先/ic:Webサイト ?web .
+FILTER(?month=02 && (regex(str(?title),"[key]")))
+OPTIONAL{
+?s ic:画像 ?image. 
+} 
+}ORDER BY (?day)
+</textarea>
+		</div>
+	
+		<!-- 結果ペイン -->
+		<div id="result_div" class="table_parent">
+		</div>
+	</div>
+
+</div>
+</body>
+</html>
